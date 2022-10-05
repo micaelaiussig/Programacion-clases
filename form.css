@@ -1,0 +1,44 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+:root{
+     --colorVioleta:rgb(163, 163, 241);
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: var(--colorVioleta);
+    padding: 10px;
+}
+
+.inputComp{
+    width: 300px;
+    padding: 10px;
+    border-radius: 20px;
+}
+button{
+    display: none;
+    padding: 20px;
+}
+h1:hover{
+    color: green;
+    background-color: blueviolet;
+}
+
+h1:active + button{
+    display: block;
+}
+.inputComp:active{
+    background-color: chocolate;
+}
+button{
+    display: none;
+    padding: 20px;
+}
+#despliegue{
+    visibility: hidden;
+}
+
