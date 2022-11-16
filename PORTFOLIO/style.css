@@ -1,0 +1,31 @@
+body{
+   background-color: antiquewhite;
+}
+
+h1{
+    background-color: aquamarine;
+    width: 1000px;
+    background-image: url(./imagenes/on\ road\ 2.webp);
+    height: 50px;
+
+
+}
+
+
+
+.eventos{
+    background-color: rgb(134, 85, 20);
+    display: flex;
+    justify-content: right;
+    width: 200px;
+}
+
+.boton{
+    width: 100px;
+ 
+
+}
+#button{
+    border-radius: 50%;
+
+}
