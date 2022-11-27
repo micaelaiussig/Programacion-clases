@@ -1,32 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>Portfolio</title>
-</head>
-<body>
-   <nav>
-    <ul>
-        <li>About Us</li>
-        <li>Contact</li>
-    </ul>
-</nav>
-    
-     <h1>On Road</h1>
-    <img src="./imagenes/on road.webp" alt="road"> 
-    <p class="eventos">Proximos Eventos</p>
-   
-    <button id="button"><img  class="boton" src="./imagenes/button.png" alt="opciones"></button>
-  <main class="main">
-    <div class="evento1">
-        <i
-    </div>
-    
-  </main> 
-    
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/all.css" />
+    <link rel="stylesheet" href="./style.css" />
 
-</body>
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <nav class="container">
+      <h1 class="principal">On Road</h1>
+      <div class="d-flex justify-content-end">
+        <ul class="contacto">
+          <li>About Us</li>
+          <li><strong>Contact</strong></li>
+
+
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+      <section class="contenedorEventos container">
+        <h1>Proximos Eventos</h1>
+        <div class="row">
+          <div class="listaEventos col-6 col-xs-12">
+            <h2>Main Events</h2>
+            <div class="row">
+              <div class="col col-xs-12">
+                <div class="card">
+                  <img
+                    src="./imagenes/solomun.jpeg"
+                    alt="artista"
+                    class="card-img-top"/>
+                    
+                    <div class="card-body">
+                    <h5 class="card-title">Solomun</h5>
+                    <p class="card-text">
+                      Sabado 19 de Noviembre Unico Show en Argentina</p>
+                    <a href="./vermas.html" class="btn btn-primary">Ver Mas</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col col-xs-12">
+                <div class="card">
+                  <img
+                    src="./imagenes/coldplay.jpeg"
+                    alt="artista"
+                    class="card-img-top"/>
+
+                  <div class="card-body">
+                    <h5 class="card-title">Coldplay</h5>
+                    <p class="card-text">10 Shows en River Plate, Music Of Spheres World Tour</p>
+                    <a href="./vermas.html" class="btn btn-primary">Ver Mas</a>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="container">
+      <div class="col-6 col-xs-12">
+        <h2>Agregados Recientemente</h2>
+        <div class="row">
+          <div class="col col-xs-12">
+            <div class="card">
+              <img
+                src="./imagenes/duki.webp" alt="artista"
+                class="card-img-top"/>
+              <div class="card-body">
+                <h5 class="card-title">Duki</h5>
+                <p class="card-text">Nuevas funciones el 11 y 12 de Noviembre</p>
+                <a href="./vermas.html" class="btn btn-primary">Ver Mas</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="./imagenes/hernan .jpeg"
+                alt="artista"
+                class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Hernan Cattaneo</h5>
+                <p class="card-text">10 y 11 de Diciembre en Potrerillos, Mendoza</p>
+                <a href="./vermas.html" class="btn btn-primary">Ver Mas</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </main>
+    <footer class="container">
+      <h2>Siguenos en:</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-1">
+            <a href="https://es-la.facebook.com/" target="_blank">
+            <img class="w-25" src="./imagenes/facebook-f.svg" />
+            </a>
+          </div>
+          <div class="col-1">
+            <a href="https://www.instagram.com/" target="_blank">
+            <img class="w-25" src="./imagenes/instagram.svg" />
+            </a>
+          </div>
+          <div class="col-1">
+            <a href="https://web.telegram.org/?legacy=1#/login" target="_blank">
+              <img class="w-25" src="./imagenes/telegram.svg" />
+              </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
